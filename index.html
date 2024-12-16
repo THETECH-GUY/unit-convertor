@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="container">
+   
+    <h2>Unit Converter</h2>
+    
+    <div class="radio-group">
+        <label><input type="radio" name="conversionType" value="length" checked> <span>Length</span></label>
+        <label><input type="radio" name="conversionType" value="weight"> <span>Weight</span></label>
+        <label><input type="radio" name="conversionType" value="temperature"> <span>Temperature</span></label>
+         </div>
+    
+    <label for="value">Enter Value:</label>
+    <input type="number" id="value" placeholder="Enter value">
+    
+    <label for="unitFrom">From:</label>
+    <select id="unitFrom"></select>
+    
+    <label for="unitTo">To:</label>
+    <select id="unitTo"></select>
+    
+    <button onclick="convert()">Convert</button>
+   
+    <h3 id="result">Result: 0</h3>
+</div>
+
+<div>
+
+<footer>
+    <p>&copy; 2023 My Website. All rights reserved.</p>
+    <p><a href="privacy.html" style="color: white;">Privacy Policy</a> | <a href="contact.html" style="color: white;">Contact Us</a></p>
+</footer>
+
+</div>
+
+ <script src="main.js"></script>
+
+</body>
+</html>
+
+
+
+	
+	
